@@ -4,16 +4,17 @@ Jet Roles
 
 ## Jet References
 
+| Resource | URL                                                   |
 |----------|-------------------------------------------------------|
 | Homepage | https://www.jetporch.com/                             |
 | Discord  | https://www.jetporch.com/ community/discord-chat      |
 | Roadmap  | https://trello.com/b/57AyE7ka/jetporch-public-roadmap |
 | Status   | https://www.jetporch.com/community/status             |
 | Source   | https://sr.ht/~mpdehaan/jetporch/                     |
-|----------|-------------------------------------------------------|
 
 ## Comparibles Tools and Services
 
+| Comparable     | Description                     |
 |----------------|---------------------------------|
 | Ansible        | Jet-like with Python Dependency |
 | Proxmox        | Hypervisor                      |
@@ -24,4 +25,3 @@ Jet Roles
 | Docker Swarm   | Container Deploy SW             |
 | Kamal          | Container Deploy SW             |
 | Fly            | Container Deploy SAAS           |
-|----------------|---------------------------------|
