@@ -7,7 +7,7 @@ Jet Roles
 | Resource | URL                                                   |
 |----------|-------------------------------------------------------|
 | Homepage | https://www.jetporch.com/                             |
-| Discord  | https://www.jetporch.com/ community/discord-chat      |
+| Discord  | https://www.jetporch.com/community/discord-chat       |
 | Roadmap  | https://trello.com/b/57AyE7ka/jetporch-public-roadmap |
 | Status   | https://www.jetporch.com/community/status             |
 | Source   | https://sr.ht/~mpdehaan/jetporch/                     |
