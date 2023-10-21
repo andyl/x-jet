@@ -1,0 +1,9 @@
+# Role file: role.yml 
+
+name: Hello World Role 
+
+defaults: 
+  TOOL: JET 
+
+tasks: 
+  - hello_task.yml
