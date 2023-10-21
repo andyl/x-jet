@@ -2,22 +2,26 @@
 
 Jet Roles 
 
-## Reference 
+## Jet References
 
-- Homepage | https://www.jetporch.com/
-- Discord  | https://www.jetporch.com/community/discord-chat
-- Roadmap  | https://trello.com/b/57AyE7ka/jetporch-public-roadmap
-- Status   | https://www.jetporch.com/community/status
-- Source   | https://sr.ht/~mpdehaan/jetporch/
+|----------|-------------------------------------------------------|
+| Homepage | https://www.jetporch.com/                             |
+| Discord  | https://www.jetporch.com/ community/discord-chat      |
+| Roadmap  | https://trello.com/b/57AyE7ka/jetporch-public-roadmap |
+| Status   | https://www.jetporch.com/community/status             |
+| Source   | https://sr.ht/~mpdehaan/jetporch/                     |
+|----------|-------------------------------------------------------|
 
-## Related 
+## Comparibles Tools and Services
 
-- Ansible        | Jet V1                 | TBD
-- Proxmox        | Hypervisor             | TBD
-- CloudInit      | Image Config           | TBD
-- Packer         | Image Prep             | TBD
-- Docker         | Containers             | TBD
-- Docker Compose | Container Coordination | TBD
-- Docker Swarm   | Container Deploy SW    | TBD
-- Kamal          | Container Deploy SW    | TBD
-- Fly            | Container Deploy SAAS  | TBD
+|----------------|---------------------------------|
+| Ansible        | Jet-like with Python Dependency |
+| Proxmox        | Hypervisor                      |
+| CloudInit      | Image Config                    |
+| Packer         | Image Prep                      |
+| Docker         | Containers                      |
+| Docker Compose | Container Coordination          |
+| Docker Swarm   | Container Deploy SW             |
+| Kamal          | Container Deploy SW             |
+| Fly            | Container Deploy SAAS           |
+|----------------|---------------------------------|
