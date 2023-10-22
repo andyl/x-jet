@@ -1,0 +1,6 @@
+# Role file: role.yml 
+
+name: Install Jet configuration tool 
+
+tasks: 
+  - install_jet.yml

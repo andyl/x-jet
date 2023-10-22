@@ -1,0 +1,9 @@
+# Task file: install_jet.yml 
+
+- !echo 
+  msg: "Install Jet"
+
+- !directory 
+  path: ~/.pkg/jet 
+
+
