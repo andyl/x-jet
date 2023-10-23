@@ -25,3 +25,13 @@ Jet Roles
 | Docker Swarm   | Container Deploy SW             |
 | Kamal          | Container Deploy SW             |
 | Fly            | Container Deploy SAAS           |
+
+## Modules 
+
+- modules depend on `jq`. 
+- module names prefaced with `jm_<>`
+
+## Scripts 
+
+- script names prefaced with `js_<>`
+
