@@ -1,6 +1,6 @@
 # y-jet
 
-Jet Roles 
+Jet Roles, Scripts and Modules 
 
 ## Jet References
 
@@ -26,12 +26,23 @@ Jet Roles
 | Kamal          | Container Deploy SW             |
 | Fly            | Container Deploy SAAS           |
 
-## Modules 
+## External Modules 
 
+https://www.jetporch.com/developer-guides/external-module-spec 
+
+- modules are bash scripts
+- modules read JSON from stdin and write JSON to stdout 
 - modules depend on `jq`. 
 - module names prefaced with `jm_<>`
+- write curry function?  probably modules will not be composable in Jet...
 
 ## Scripts 
+
+- https://www.jetporch.com/modules/commands#script 
+- https://www.jetporch.com/modules/commands#controlling-when-failures-are-returned 
+- https://www.jetporch.com/modules/commands#controlling-when-changes-are-reported 
+- https://www.jetporch.com/playbooks/tasks-and-task-modifiers#with-statements 
+- https://www.jetporch.com/playbooks/tasks-and-task-modifiers#condition 
 
 - script names prefaced with `js_<>`
 

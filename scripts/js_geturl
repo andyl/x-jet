@@ -1,10 +1,37 @@
 #!/usr/bin/env bash 
 
-needs_update() { 
+usage() { 
+  echo "USAGE: js_geturl <src_url> <tgt_file>"
+  exit 1 
+}
+
+abort() { 
+  echo "ERROR/js_geturl: $1" 
+  exit 1 
+}
+
+bad_url() { 
+  # return true if url does not exist
+}
+
+reject_update() { 
   local src=$1 
   local tgt=$2 
 
-  
+  # - return false if tgt file does not exist 
+  # - check header using `curl -I <url>` 
+  # - return false if tgt is older than src 
 
   return 0 
 }
+
+[ $# != 2 ] || usage 
+
+src_url=$1 
+tgt_file=$2 
+
+$(bad_url $src_url) && abort "Bad URL"
+
+$(reject_update $src_url $tgt_url) && exit
+
+curl $src_url $tgt_file 

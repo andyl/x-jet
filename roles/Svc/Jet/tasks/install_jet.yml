@@ -6,4 +6,13 @@
 - !directory 
   path: ~/.pkg/jet 
 
+- !directory 
+  path: ~/.jetbin 
+
+- !copy 
+  src: ~/util/y-jet/scripts/js_geturl 
+  dest: ~/.jetbin/js_geturl 
+
+- !shell 
+  cmd: TBD
 
